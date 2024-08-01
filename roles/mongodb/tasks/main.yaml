@@ -6,10 +6,13 @@
   ansible.builtin.copy:
     src: catalogue.js
     dest: /tmp/catalogue.js
-- name: Install MongoDB
-  ansible.builtin.dnf:
-    name: mongodb-org
-    state: installed
+# - name: Install MongoDB
+#   ansible.builtin.dnf:
+#     name: mongodb-org
+#     state: installed
+- name: install mongodb
+  ansible.builtin.command: yum install mongodb-org -y
+
 - name: start and enable mongodb
   ansible.builtin.service:
     name: mongod
