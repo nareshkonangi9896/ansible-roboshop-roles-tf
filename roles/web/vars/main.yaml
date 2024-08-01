@@ -1,0 +1,5 @@
+CATALOGUE_HOST: catalogue.nareshdevops.online
+USER_HOST: user.nareshdevops.online
+SHIPPING_HOST: shipping.nareshdevops.online
+CART_HOST: cart.nareshdevops.online
+PAYMENT_HOST: payment.nareshdevops.online
