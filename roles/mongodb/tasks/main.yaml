@@ -7,7 +7,7 @@
     src: catalogue.js
     dest: /tmp/catalogue.js
 - name: Install MongoDB
-  ansible.builtin.yum:
+  ansible.builtin.dnf:
     name: mongodb-org
     state: installed
 - name: start and enable mongodb
