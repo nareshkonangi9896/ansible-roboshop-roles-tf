@@ -25,4 +25,4 @@
     name: mongod
     state: restarted
 - name: load catalogue data
-  ansible.builtin.command: mongo --host localhost < /tmp/catalogue.j
+  ansible.builtin.command: mongo --host localhost < /tmp/catalogue.js
